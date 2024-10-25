@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+}
+
+.card {
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  width: 200px;
+  height: 408px;
+}
+
+.card__photo {
+  object-fit: fill;
+  width: 160px;
+  height: 134px;
+  margin-top: 32px;
+  margin-left: 19px;
+}
+
+.card__description {
+  text-align: left;
+  color: #060b35;
+  margin-top: 36px;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__code {
+  color: #616070;
+  margin-top: 4px;
+  margin-left: 16px;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card__price {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+}
+
+.card__price_1 {
+  color: #616070;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card__price_2 {
+  color: #060b35;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card__buy {
+  width: 166px;
+  height: 40px;
+  margin-left: 16px;
+}
+
+.card__button {
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #00acdc;
+  border-radius: 5px;
+  width: 166px;
+  height: 40px;
+  margin-top: 16px;
+  padding-top: 11px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card__button:hover {
+  color: #00acdc;
+  background-color: #fff;
+  border: 1px solid #00acdc;
+  padding-top: 10px;
+}
+
+.card__button_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.stars {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.stars--4 {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.stars__blok {
+  display: flex;
+}
+
+.stars__not_active {
+  background-image: url("star.fa806e3c.svg");
+  background-position: 0;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 0 2px;
+}
+
+.stars__active {
+  background-image: url("star-active.2be54011.svg");
+  background-position: 0;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 0 2px;
+}
+
+.stars__review {
+  color: #060b35;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=index.e378193d.css.map */
